@@ -1,0 +1,75 @@
+# High level description
+###### tags: `project one`
+The Outlet:
+"Privately trade goods with reputable actors"
+
+## Milestones
+
+1. create a user 
+    - with keycard
+    - user switching 
+    - incognito mode
+    - chat
+
+    #### This is chat / messaging 
+
+
+ 2. buy/sell 
+    -  post on market 
+    -  upload pictures and set a description + Price
+
+    #### This is social media 
+
+
+3. buy something
+    -  the tx flow (escrow / chat etc)
+    -  earn reputation / keep score
+
+    #### This is a marketplace
+
+
+4. sustainability implementation
+    -  token economy
+    -  the marketplace fees are distributed to the marketplace users 
+
+    #### This is a DAO (governance)
+
+
+5. create marketplaces
+    - community framework set up (swarmwise)
+
+    #### ...that can create new markets
+
+
+## Deliverables
+- [x] Work Order w milestones @kiki
+- [x] Buy in from team
+- [x] Research documentation
+- [x] Development process / future roadmap
+- [ ] Wireframes, Figma, Clickthrough
+- [ ] Sustainability strategy
+    - [ ] for bootstrapping the user community
+    - [ ] for continuous development
+- [ ] A Github repo with fi.
+    - [ ] frontend code
+    - [ ] contract code
+    - [ ] protocol.md
+    - [ ] white/yellow/pink paper
+- [ ] Brand Guidelines + UX + Tone of Voice 
+- [ ] Website
+- [ ] A deployed version of the dapp
+
+## Privacy & Stack
+--research--
+Waku, ZkEVM (?), Semaphore, Unirep...
+
+- I want others to see my reputation without knowing who i am https://medium.com/privacy-scaling-explorations/unirep-a-private-and-non-repudiable-reputation-system-7fb5c6478549
+- I want to choose to post a request or sale anonymous or with an identity
+https://semaphore.appliedzkp.org/
+
+- For instance, shopowners want to be known but they might want to keep their sales private, but still be able to prove how much of something they have sold
+
+- and customers's purchase history needs to be hidden too
+- yet a seller might only want to sell to customers who have purchased such a good before
+- also you only want to sell to someone who has enough money to buy it, but the customer should not have to reveal their balance
+- going in and out the market (depositing money) should also work from any address (send money to a user IN the marketplace), and exiting would also be to any address
